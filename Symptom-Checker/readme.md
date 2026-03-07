@@ -40,13 +40,13 @@ This approach simulates **clinical rule mapping** while maintaining transparency
 
 Symptom–condition relationships are stored in a structured JSON file.
 
-### Example Data Format
+## Data Sources
 
-  "flu": {
-    "symptoms": ["fever", "cough", "fatigue", "headache"],
-    "description": "A contagious respiratory illness caused by influenza viruses."
-  }
+Symptom information was referenced from:
 
+- Mayo Clinic
+- NHS
+- CDC
 
 This structure allows:
 
