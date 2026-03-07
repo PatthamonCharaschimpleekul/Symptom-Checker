@@ -43,7 +43,6 @@ Symptom–condition relationships are stored in a structured JSON file.
 ## Data Sources
 
 Symptom information was referenced from:
-
 - Mayo Clinic
 - NHS
 - CDC
