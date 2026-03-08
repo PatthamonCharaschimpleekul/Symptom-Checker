@@ -1,0 +1,59 @@
+{
+  "flu": {
+    "name": "Influenza",
+    "symptoms": [
+      "cough",
+      "fever",
+      "headache",
+      "body_aches",
+      "fatigue"
+    ],
+    "description": "A contagious respiratory illness caused by influenza viruses."
+  },
+
+  "common_cold": {
+    "symptoms": [
+      "cough",
+      "low_grade_fever",
+      "sneezing",
+      "runny_nose",
+      "sore_throat"
+    ],
+    "description": "A mild viral infection affecting the upper respiratory tract."
+  },
+
+  "covid": {
+    "symptoms": [
+      "cough",
+      "fever",
+      "shortness_of_breath",
+      "loss_of_taste_or_smell",
+      "body_aches",
+      "diarrhea"
+    ],
+    "description": "An infectious disease caused by the SARS-CoV-2 virus."
+  },
+
+  "anxiety": {
+    "symptoms": [
+      "difficulty_sleeping",
+      "fatigue",
+      "feeling_restless",
+      "nervous_or_tense",
+      "stomach_problem",
+      "panic"
+    ],
+    "description": "A feeling of fear, tension, or worry that can interfere with daily life."
+  },
+
+  "migraine": {
+    "symptoms": [
+      "headache",
+      "nausea",
+      "sensitivity_to_light",
+      "stuffy_nose",
+      "feeling_cold_or_sweaty"
+    ],
+    "description": "A neurological condition characterized by severe headaches."
+  }
+}
