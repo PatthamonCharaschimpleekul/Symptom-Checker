@@ -57,6 +57,7 @@ function displayResults(results) {
     const percent = Math.round(r.score * 100);
 
     const item = document.createElement("div");
+    item.className = "result-item";
 
     item.innerHTML = `
       <h3>${r.condition}</h3>
