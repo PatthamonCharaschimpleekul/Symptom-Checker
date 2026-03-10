@@ -41,3 +41,27 @@ for(const condition in dataset){
     results.sort((a,b) => b.score - a.score);
     displayResults(results.slice(0,3));
 });
+
+//display function
+
+function displayResults(results) {
+
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
+
+  results.forEach(r => {
+
+    const percent = Math.round(r.score * 100);
+
+    const item = document.createElement("div");
+
+    item.innerHTML = `
+      <h3>${r.condition}</h3>
+      <p>Match: ${percent}%</p>
+      <p>${r.description}</p>
+    `;
+
+    resultDiv.appendChild(item);
+
+  });
+}
