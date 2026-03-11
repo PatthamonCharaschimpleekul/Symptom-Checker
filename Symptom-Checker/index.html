@@ -3,45 +3,59 @@
 
 <head>
     <meta charset="UTC-8">
-    <title>Rule-Based Symptom Checker</title>
+    <title>Advance Symptom Checker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="contianer">
-    <h1>Symptom Checker</h1>
-    <p>Select your symptoms:</p>
+<header>
+  <h1>Rule-Based Symptom Checker</h1>
+  <p>Educational prototype for clinical decision support</p>
+</header>
 
-<form id="symptomForm">
-    <label><input type="checkbox" value="cough"> Cough</label><br>
-    <label><input type="checkbox" value="fever"> Fever</label><br>
-    <label><input type="checkbox" value="headache"> Headache</label><br>
-    <label><input type="checkbox" value="body_aches"> Body Aaches</label><br>
-    <label><input type="checkbox" value="fatigue"> Fatigue</label><br>
-    <label><input type="checkbox" value="low_grade_faver"> Low grade fever</label><br>
-    <label><input type="checkbox" value="Sneezing"> Sneezing</label><br>
-    <label><input type="checkbox" value="runny_nose"> Runny Nose</label><br>
-    <label><input type="checkbox" value= "sore_throat"> Sore Throat</label><br>
-    <label><input type="checkbox" value="shortness_of_breath"> Shortness of Breath</label><br>
-    <label><input type="checkbox" value="loss_of_taste_or_smell"> Loss of Taste or Smell</label><br>
-    <label><input type="checkbox" value="diarrhea"> Diarrhea</label><br>
-    <label><input type="checkbox" value="difficulty_sleeping"> Difficulty Sleeping</label><br>
-    <label><input type="checkbox" value="feeling_restless"> Feeling Restless</label><br>
-    <label><input type="checkbox" value="nervous_or_tense"> Nervous or Tense</label><br>
-    <label><input type="checkbox" value="stomach_problem"> Stomach Problem</label><br>
-    <label><input type="checkbox" value="panic"> Panic</label><br>
-    <label><input type="checkbox" value="nausea"> Nausea</label><br>
-    <label><input type="checkbox" value="sensitive_to_light"> Sensitive to Light</label><br>
-    <label><input type="checkbox" value="stuffy_nose"> Stuffy Nose</label><br>
-    <label><input type="checkbox" value="feeling_cold_or_sweaty"> Feeling Cold or Sweaty</label><br>
-    <br>
-    <button type="submit">Check Symptoms</button>
-</form>
+<div class="container">
 
-<div id="result"></div>
+    <h2>Select Your Symptoms</h2>
 
-<script src="script.js"></script>
+    <!--Search bar for symptom-->
+    <input type="text" id="symptomSearch" placeholder="search symptom..."/>
+
+
+    <form id="symptomForm">
+        <label><input type="checkbox" value="cough"> Cough</label><br>
+        <label><input type="checkbox" value="fever"> Fever</label><br>
+        <label><input type="checkbox" value="headache"> Headache</label><br>
+        <label><input type="checkbox" value="body_aches"> Body Aaches</label><br>
+        <label><input type="checkbox" value="fatigue"> Fatigue</label><br>
+        <label><input type="checkbox" value="low_grade_faver"> Low grade fever</label><br>
+        <label><input type="checkbox" value="Sneezing"> Sneezing</label><br>
+        <label><input type="checkbox" value="runny_nose"> Runny Nose</label><br>
+        <label><input type="checkbox" value= "sore_throat"> Sore Throat</label><br>
+        <label><input type="checkbox" value="shortness_of_breath"> Shortness of Breath</label><br>
+        <label><input type="checkbox" value="loss_of_taste_or_smell"> Loss of Taste or Smell</label><br>
+        <label><input type="checkbox" value="diarrhea"> Diarrhea</label><br>
+        <label><input type="checkbox" value="difficulty_sleeping"> Difficulty Sleeping</label><br>
+        <label><input type="checkbox" value="feeling_restless"> Feeling Restless</label><br>
+        <label><input type="checkbox" value="nervous_or_tense"> Nervous or Tense</label><br>
+        <label><input type="checkbox" value="stomach_problem"> Stomach Problem</label><br>
+        <label><input type="checkbox" value="panic"> Panic</label><br>
+        <label><input type="checkbox" value="nausea"> Nausea</label><br>
+        <label><input type="checkbox" value="sensitive_to_light"> Sensitive to Light</label><br>
+        <label><input type="checkbox" value="stuffy_nose"> Stuffy Nose</label><br>
+        <label><input type="checkbox" value="feeling_cold_or_sweaty"> Feeling Cold or Sweaty</label><br>
+        <br>
+        <div id="symptomList"></div>
+        <button type="submit">Check possible comditions</button>
+    </form>
+
+    <h2>possible conditions</h2>
+
+    <div id="result"></div>
 
 </div>
+<footer>
+    <p>⚠️ This tool is for educational purposes only and not a medical diagnosis.</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
