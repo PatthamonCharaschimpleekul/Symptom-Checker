@@ -90,7 +90,7 @@ Ethical responsibility and transparency are core considerations in the design of
 * Severity level assessment (mild / moderate / severe)
 * Confidence or match-percentage scoring
 * Multi-language support (e.g., English / Thai)
-* Backend implementation using Python (Flask)
+* Backend implementation using Python (now using Javascript)
 * Explainable reasoning output ("Why this condition was suggested")
 
 ---
@@ -111,6 +111,8 @@ It serves as a foundational exploration of how computational logic can support h
 ## 👤 Author
 
 Patthamon Charaschimpleekul
+Harbin Engineering University
+DATE: 11/3/2026 (2ND YEAR PROJECT)
 
 ---
 
